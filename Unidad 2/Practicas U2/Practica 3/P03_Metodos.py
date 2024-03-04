@@ -1,4 +1,3 @@
-from datetime import datetime
 from keras.utils import  load_img, img_to_array, array_to_img, save_img
 def elegirKernel(num):
     print('ok')
@@ -122,7 +121,7 @@ def convulucionar(kernel, file, largo, alto, numElegido):
     # axs[1].imshow(img, cmap='gray')
     plt.show()
     # guardar_grafico(plt, numElegido)
-    return img_a_convolucionar
+    return img_convulucionada
 
 def max_pooling(img_to_maxpooling,alto, largo):
     stride = 4  # 2 x 2
